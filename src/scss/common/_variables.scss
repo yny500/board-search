@@ -1,0 +1,27 @@
+$component-name: 'container';
+
+// Light Theme
+:root {
+  --textColor: #000;
+  --bgColor: #f1f4ff;
+  --bgColor2: #fff;
+  --bgColor3: #f6f7fb;
+  --bgColor4: #f6f7fb;
+  --inputBox: #e4e6ea;
+  --selectBox: #fff;
+  --iconSearch: url('/img/ic-search.png');
+  --textDate: #86868b;
+}
+
+// Dark Theme
+:root[data-dark=true] {
+  --textColor: #fff;
+  --bgColor: #000;
+  --bgColor2: #1d1d1f;
+  --bgColor3: #1d1d1f;
+  --bgColor4: #3e3e44;
+  --inputBox: #2f2e30;
+  --selectBox: #2f2e30;
+  --iconSearch: url('/img/ic-search-white.png');
+  --textDate: #b3b3b3;
+}
